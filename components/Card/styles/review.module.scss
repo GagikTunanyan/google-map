@@ -1,0 +1,31 @@
+.reviewCardWrapper {
+    width: 100%;
+    display: flex;
+    // align-items: center;
+    justify-content: flex-start;
+    column-gap: 15px;
+    padding: 0.25rem 0.75rem;
+    box-sizing: border-box;
+    .AuthorInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 100px;
+        .AuthorName {
+            margin: 5px 0;
+            font-size: 12px;
+        }
+        .filled-icons {
+            width: 100%;
+        }
+    }
+    .FeadbackBlock {
+        width: calc(100% - 200px);
+        p {
+            margin: 0;
+            font-size: 15px;
+            font-weight: inherit;
+            letter-spacing: 0.1px;
+        }
+    }
+}

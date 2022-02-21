@@ -1,0 +1,28 @@
+.Button {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 2px 6px 0px #00000073; 
+    box-shadow: 0px 2px 6px 0px #00000073;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover {
+        letter-spacing: 1px;
+    }
+    &.Info {
+        border: 1px solid #08979c;
+        border-radius: 5px;
+        background-color: #13c2c2;
+    }
+    &.Warning {
+        background-color: #fa8c16;
+        border: 1px solid #f78409;
+        border-radius: 5px;
+    }
+    
+}

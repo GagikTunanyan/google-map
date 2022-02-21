@@ -1,0 +1,25 @@
+.CardWrapper {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;    
+    h4 {
+        letter-spacing: 1px;
+        margin: 4px 0 10px;
+    }
+    .Rating {
+        margin-bottom: 15px;
+        span {
+            font-size: 12px;
+        }
+    }
+    >button {
+        width: 100%;
+        height: 28px;
+    }
+    
+}

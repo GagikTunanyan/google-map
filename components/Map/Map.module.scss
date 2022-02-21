@@ -1,0 +1,26 @@
+.Toolthip {
+    h5 {
+        margin: 1px 0;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.3px;
+    }
+    p {
+        margin: 5px 0;
+        font-size: 12px;
+    }
+    .RatingsBlock {
+        span {
+            font-size: 11px;
+            font-weight: 400;
+        }
+    }
+    .Open {
+        color: green;
+        font-weight: bold;
+    }
+    .Close {
+        color: darkred;
+        font-weight: bold;
+    }
+}
